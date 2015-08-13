@@ -110,7 +110,7 @@ If you want to generate table of contents and you want to use custom XSL stylesh
 $snappy = new Pdf('/path/to/binary');
 
 $snappy->setOption('toc', true);
-$snappy->setOption('xsl-style-sheet', 'http://path/to/stylesheet.xsl') //or local file;
+$snappy->setOption('xsl-style-sheet', 'http://path/to/stylesheet.xsl'); //or local file
 
 $snappy->generateFromHtml('<p>Some content</p>', 'test.pdf');
 ```
